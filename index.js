@@ -24,7 +24,7 @@ app.use('/entries', entryRoutes);
 
 //Set greeting for API
 app.get('/', (req, res) => {
-    res.send('Space Traveller API');
+    res.send('Space Traveller API, see /entries for content');
 })
 
 // Connecting to MongoDB with mongoose
